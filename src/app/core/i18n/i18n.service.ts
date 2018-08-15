@@ -1,4 +1,4 @@
-import { Injectable, inject, Injector, Injectable } from '@angular/core';
+import { Injectable, inject, Injector } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { filter } from 'rxjs/operators';
