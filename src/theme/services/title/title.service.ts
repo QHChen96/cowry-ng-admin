@@ -10,8 +10,8 @@ import { Title } from '@angular/platform-browser'
 import { DOCUMENT } from '@angular/common';
 import { Subscription } from 'rxjs';
 
-import { MenuService } from '@service/menu/menu.service';
-import { COWRY_I18N_TOKEN, CowryI18NService } from '@service/i18n/i18n';
+import { MenuService } from '../menu/menu.service';
+import { COWRY_I18N_TOKEN, CowryI18NService } from '../i18n/i18n';
 
 
 /**

@@ -38,7 +38,7 @@ export class SettingsService {
   }
 
   get app(): App {
-    if (!this.app) {
+    if (!this._app) {
       this._app = Object.assign(
         <App>{
           year: new Date().getFullYear()

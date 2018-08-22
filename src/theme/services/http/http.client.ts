@@ -8,7 +8,7 @@ import {
 import { Observable, throwError } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
 import { HttpClientConfig } from './http.config';
-import { CowryThemeConfig } from '@service/theme/theme.config';
+import { CowryThemeConfig } from '../../theme.config';
 /**
  * 封装http
  */
